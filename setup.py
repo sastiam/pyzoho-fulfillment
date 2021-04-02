@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyzoho-fulfillment",
-    version="0.0.2",
+    version="0.0.3",
     author="sastiam",
     author_email="sfrancia@gmail.com",
     description="Dialogflow agent fulfillment library for Zohobot integration",
