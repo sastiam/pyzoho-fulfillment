@@ -1,5 +1,5 @@
 from collections import OrderedDict
-from .response import *
+from pyzoho_fulfillment.response import *
 import json
 
 
