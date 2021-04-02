@@ -3,18 +3,7 @@ from .response import *
 import json
 
 
-class PyZohoResponse():
-    """
-   "fulfillmentMessages": [
-        {
-          "payload": {
-            "replies": [TextResponse, ...],
-            "action": "reply",
-            "platform": "ZOHOSALESIQ"
-          }
-        }
-    ]
-    """
+class ZohoResponse():
 
     def __init__(self) -> None:
         self.sales_response = OrderedDict()
