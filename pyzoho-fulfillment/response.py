@@ -2,26 +2,11 @@ from collections import OrderedDict
 
 
 class TextResponse:
-    """
-    [
-        {
-            "text": display_text
-        }
-    ]
-    """
     def __init__(self, display_text) -> None:
         self.single_response = OrderedDict()
         self.single_response["text"] = display_text
 
 class ImageResponse:
-    """
-     [
-        {
-        "text": display_text,
-        "image": display_img
-        }
-    ]
-    """
     def __init__(self, display_text, display_img) -> None:
         self.image_response = OrderedDict()
         self.image_response["text"] = display_text
@@ -29,16 +14,6 @@ class ImageResponse:
 
 
 class SuggestionsChips:
-    """
-    [
-        chip-1,
-        chip-2,
-        .
-        .
-        .
-        chip-n
-    ]
-    """
     def __init__(self, suggestion_chips: list) -> None:
         self.suggestions = []
         for item in suggestion_chips:
