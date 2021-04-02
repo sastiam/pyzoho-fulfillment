@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pyzoho-fulfillmenet-sastiam",
+    name="pyzoho-fulfillment",
     version="0.0.1",
     author="sastiam",
     author_email="sfrancia@gmail.com",

@@ -3,7 +3,7 @@ from .response import *
 import json
 
 
-class SalesIQResponse():
+class PyZohoResponse():
     """
    "fulfillmentMessages": [
         {
